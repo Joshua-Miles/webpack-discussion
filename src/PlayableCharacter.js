@@ -1,7 +1,9 @@
-class PlayableCharacter extends Character {
+// ?
+
+/* ? */  class PlayableCharacter extends Character {
 
     constructor(name, x, y){
-        super(name, x, y, 'josh-character')
+        super(name, x, y)
         document.addEventListener('keydown', (event) => {
         
             if(event.repeat){

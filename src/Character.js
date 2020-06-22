@@ -1,10 +1,10 @@
-class Character {
+/* ? */ class Character {
 
     constructor(name, x = 0, y = 0, imgPath= 'green-character'){
 
         this.name = name
 
-        this.ASSET_ROOT = `./assets/${imgPath}`
+        this.ASSET_ROOT = `https://raw.githubusercontent.com/Joshua-Miles/web-game-curriculum/master/module-1/assets/${imgPath}`
 
         this.element = document.createElement('div')
         this.element.style.position = 'absolute'
